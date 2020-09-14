@@ -14,35 +14,37 @@
 </head>
 
 <body>
-    <div class="fixed-top">
+    <div class="site-header sticky-top ">
         <!-- banniere -->
         <div class="d-flex justify-content-center " id="banniere">
-            <img class=" w-75" src="/public/images/logozb.png" alt="Zohra Boussouf" id="logozb">
+            <img class="w-50" src="public/images/logozb.png" alt="Zohra Boussouf" id="logozb">
         </div>
 
         <!-- barre de navigation  -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-            <a class="navbar-brand" href="index.php"></a>
+        <nav id="navtop" class="navbar navbar-expand-lg bg-vert">
+            <a class="navbar-brand " href="index.php">
+                <h1 hidden >Boussouf Zohra </h1>
+            </a>
             <button id="btnmenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-                <span class="navbar-toggler-icon"> <img style="width: 64px" src="public/images/favicon.png" alt="ZB"></span>
+                <span class="navbar-toggler-icon" id ="togglerIcon"></span>
             </button>
 
-            <div id="navbarContent" class="navbar-collapse collapse">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"> Présentation<span class="sr-only">(current)</span> </a>
+            <div id="navbarContent" class="navbar-collapse collapse justify-content-center ">
+                <ul class="navbar-nav">
+                    <li class="nav-item  active">
+                        <a class="nav-link text-white " href="#"> Présentation<span class="sr-only">(current)</span> </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Parcours Scolaire </a>
+                        <a class="nav-link text-white " href="#"> Parcours Scolaire </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Parcours Professionel </a>
+                        <a class="nav-link text-white " href="#"> Parcours Professionel </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Activités </a>
+                        <a class="nav-link text-white " href="#"> Activités </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Contact </a>
+                        <a class="nav-link text-white " href="#"> Contact </a>
                     </li>
                 </ul>
             </div>

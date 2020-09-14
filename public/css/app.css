@@ -1,9 +1,45 @@
-body{
-    background-color: lightgray;
+/* corps */
 
-}
 
+/* image banniere */
 #banniere
 {
     background-color: white;
 } 
+
+/* navigation au de page*/
+
+
+#togglerIcon
+{
+    background-image: url(../../public/images/favicon.png);
+}
+#btnmenu
+{
+    border: none;
+}
+#btnmenu:focus
+{
+    outline: none;
+}
+.nav-link
+{
+    font-weight: bold ;
+}
+
+/* footer */
+#navbot
+{
+    font-weight: bold ;
+}
+
+.text-white
+{
+    color : #ffffff !important;
+}
+
+.bg-vert
+{
+    background-color : #036f7b !important;
+}
+

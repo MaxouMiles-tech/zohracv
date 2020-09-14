@@ -1,15 +1,14 @@
-<div class="container-fluid">
-    <div class="row" id="footer">
-        <div class="col fixed-bottom">
+
+    <div id="navbot" class="site-footer fixed-bottom">
+        <nav class="navbar justify-content-center navbar-expand-md bg-vert text-white" >
             &copy;
             <?php
             setlocale(LC_TIME, 'fr_FR', 'fra');
-            echo (strftime("%Y"));
+            echo (strftime("%Y ") );
             ?>
-            Zohra Boussouf
-        </div>
+            Zohra Boussouf         
+        </nav>
     </div>
-</div>
 
 <!-- Optional JavaScript -->
 
