@@ -1,6 +1,6 @@
 
     <div id="navbot" class="site-footer fixed-bottom">
-        <nav class="navbar justify-content-center navbar-expand-md bg-vert text-white" >
+        <nav class="navbar justify-content-center navbar-expand-md bg-vert rounded mx-2 text-white" >
             &copy;
             <?php
             setlocale(LC_TIME, 'fr_FR', 'fra');

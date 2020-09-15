@@ -1,15 +1,32 @@
-/* corps */
-
-
 /* image banniere */
 #banniere
 {
     background-color: white;
 } 
 
-/* navigation au de page*/
+/* navigation de page*/
+ 
+.bg-vert
+{
+    background-color : #036f7b !important;
+}
 
+/* header  */
+nav a
+{
+    font-size: large;
+    font-weight: bold ;
+}
+nav a:hover, #en-cours
+{
+    border-bottom: 2px solid white;
+}
+nav li
+{
+    margin-right: 30px;
+}
 
+/* icone pour le bouton menu petit ecran */
 #togglerIcon
 {
     background-image: url(../../public/images/favicon.png);
@@ -22,10 +39,6 @@
 {
     outline: none;
 }
-.nav-link
-{
-    font-weight: bold ;
-}
 
 /* footer */
 #navbot
@@ -33,13 +46,47 @@
     font-weight: bold ;
 }
 
-.text-white
-{
-    color : #ffffff !important;
+/* carousel */
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
 
-.bg-vert
+/*Eléments principaux de la page */
+ .titre
 {
-    background-color : #036f7b !important;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: 3px #036f7b double;
+    padding: 5px 5px;
+    width: 100%;
+
 }
 
+.col-lg-3 img
+{
+    border: 1px solid #181818;
+    width: 200px;
+    height: auto;
+    margin: 30px;
+}
+.row
+{
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+}
+
+/* icone */
+#icoSchool
+{
+    max-width:45px;
+    height: auto;
+}
+
+/* image  */
+/* #logoAFPA
+{
+    align-content: end;
+} */
