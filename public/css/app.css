@@ -53,7 +53,13 @@ nav li
 }
 
 /*Eléments principaux de la page */
- .titre
+.row
+{
+    text-align: justify;
+    width: 100%;
+    margin: auto;
+}
+.titre
 {
     text-align: center;
     color: black;
@@ -63,30 +69,35 @@ nav li
     width: 100%;
 
 }
-
-.col-lg-3 img
+h2 
 {
-    border: 1px solid #181818;
-    width: 200px;
-    height: auto;
-    margin: 30px;
+color: #036f7b;
 }
-.row
+h2 , h4
 {
-    text-align: justify;
-    width: 100%;
-    margin: auto;
+    text-transform: uppercase;
+
+}
+
+h4, h5 a, h5 a:hover
+{
+    color:#478e95; 
 }
 
 /* icone */
-#icoSchool
+.iconeTitre
 {
     max-width:45px;
     height: auto;
 }
 
-/* image  */
-/* #logoAFPA
+
+/* image aside  */
+.col-md-4 img
 {
-    align-content: end;
-} */
+    border: 1px solid #013b40;
+    width: 200px;
+    height: auto;
+    /* margin: 30px; */
+    /* margin-top: 100px; */
+}

@@ -17,11 +17,11 @@
     <div class="site-header sticky-top ">
         <!-- banniere -->
         <div class="d-flex justify-content-center " id="banniere">
-            <img class="" src="public/images/logozb.png" alt="Zohra Boussouf" id="logozb">
+            <img src="public/images/logozb.png" alt="Zohra Boussouf" id="logozb">
         </div>
 
         <!-- barre de navigation  -->
-        <nav id="navtop" class="navbar  navbar-expand-lg bg-vert rounded mx-2">
+        <nav id="navtop" class="navbar navbar-expand-lg bg-vert rounded mx-2">
             <a class="navbar-brand " href="index.php">
                 <!-- titre pour le referencement  -->
                 <h1 hidden>Boussouf Zohra </h1>
@@ -38,14 +38,14 @@
                         <a class="nav-link text-white" <?php if ($nav_en_cours == 'academic') {echo ' id="en-cours"';} ?> href="academic.php"> Parcours Scolaire </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'presentation') {echo ' id="en-cours"';} ?> href="#"> Parcours Professionel </a>
+                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'career') {echo ' id="en-cours"';} ?> href="career.php"> Parcours Professionel </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'presentation') {echo ' id="en-cours"';} ?> href="#"> Activités </a>
+                        <a class="nav-link text-white" <?php if ($nav_en_cours == '') {echo ' id="en-cours"';} ?> href="#"> Activités </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'presentation') {echo ' id="en-cours"';} ?> href="#"> Contact </a>
-                    </li>
+                        <a class="nav-link text-white" <?php if ($nav_en_cours == '') {echo ' id="en-cours"';} ?> href="#"> Contact </a>
+                    </li
                 </ul>
             </div>
         </nav>

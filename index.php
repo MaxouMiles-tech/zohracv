@@ -37,9 +37,9 @@ include("header.php");
         <h1 class="titre"> Présentation </h1>
     </div>
 
-    <div class="row justify-content-lg-between " id="1">
+    <div class="row justify-content-md-between " id="1">
         <!-- section presentation -->
-        <div class="col-12 col-lg-8 mt-3 my-lg-5">
+        <div class="col-12 col-md-8 mt-3 ">
             <div>
                 <p> Diplômée en chimie organique et passionnée par le Digital. Je suis dynamique, rigoureuse et spontanée. </p>
 
@@ -54,7 +54,7 @@ include("header.php");
             </div>
         </div>
         <!-- section image -->
-        <div class="col-12 col-lg-3 my-auto">
+        <div class="col-12 col-md-4 my-auto">
             <p class="text-center">
                 <img class="img-fluid" src="public/images/newadventure.png" alt="newadventure" id="newadventure" />
             </p>
