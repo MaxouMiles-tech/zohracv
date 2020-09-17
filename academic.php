@@ -35,14 +35,15 @@ include("header.php");
                         Le concepteur développeur informatique est aussi capable de développer une application, une page web ou une base de données à partir d’un cahier des charges ou d’un scénario utilisateur.
                     </p>
 
-                    <h5 ><a href="#collapse1" data-toggle="collapse">Objectifs de la formation</a></h5>
+                    <h5><a href="#collapse1" data-toggle="collapse">Objectifs de la formation</a></h5>
                     <div id="collapse1" class="collapse">
                         <ul>
                             <li> Analyser un cahier des charges. </li>
-                            <li> Concevoir l’architecture technique d’une application.</li>
                             <li> Créer des application web dynamiques grâce à Java.</li>
                             <li> Communiquer avec une base de données.</li>
-                            <li> Développer de manière professionnelle grâce au framework Spring.</li>
+                            <li> Concevoir et développer des composants d'interface utilisateur en intégrant les recommandations de sécurité.</li>
+                            <li> Concevoir et développer la persistance des données en intégrant les recommandations de sécurité.</li>
+                            <li> Concevoir et developper une application multicouche répartie en intégrant les recommandations de sécurité.</li>
                         </ul>
                     </div>
                 </div>
@@ -51,11 +52,11 @@ include("header.php");
             <div class="d-none d-md-block col-md-4 my-auto">
                 <div class="text-center ">
                     <a href="https://www.afpa.fr/formation-qualifiante/concepteur-developpeur-informatique" target="_blank" title=" Détails de la formation">
-                        <img " src=" public/images/logoAfpa.png" alt="Logo AFPA " id="logoAFPA" /></a>
+                        <img src=" public/images/logoAfpa.png" alt="Logo AFPA " id="logoAFPA" /></a>
                 </div>
             </div>
         </div>
-    </div><br>
+    </div><hr>
 
     <!-- ecole 2  -->
     <div class="row justify-content-md-between pl-md-5">
@@ -78,7 +79,7 @@ include("header.php");
                         Le développeur de sites web dynamiques a pour mission de créer des sites web dynamiques, avec le language PHP, accédant à une base de données, dans le respect des bonnes pratiques du développement web.
                     </p>
 
-                    <h5  ><a href="#collapse2" data-toggle="collapse">Objectifs de la formation</a></h5>
+                    <h5><a href="#collapse2" data-toggle="collapse">Objectifs de la formation</a></h5>
                     <div id="collapse2" class="collapse">
                         <ul>
                             <li> Algorithmie et programmation procédurale. </li>
@@ -95,11 +96,11 @@ include("header.php");
             <div class="d-none d-md-block col-12 col-md-4 my-auto">
                 <div class="text-center">
                     <a href="https://www.eni-ecole.fr/" target="_blank" title=" Détails de la formation">
-                        <img " src=" public/images/logoEni.png" alt="Logo ENI " id="logoENI" /></a>
+                        <img src=" public/images/logoEni.png" alt="Logo ENI " id="logoENI" /></a>
                 </div>
             </div>
         </div>
-    </div><br>
+    </div><hr>
 
     <!-- ecole 3  -->
     <div class="row justify-content-md-between pl-md-5 ">
@@ -124,7 +125,7 @@ include("header.php");
                         biologiques dans les domaines appliqués à la chimie, la biochimie, la biologie et les biotechnologies).
                     </p>
 
-                    <h5  ><a href="#collapse3" data-toggle="collapse">Objectifs de la formation</a></h5>
+                    <h5><a href="#collapse3" data-toggle="collapse">Objectifs de la formation</a></h5>
                     <div id="collapse3" class="collapse">
                         <ul>
                             <li> Techniques analytiques pour la séparation et l'identification de biomolécules (protéines, peptides). </li>
@@ -143,11 +144,11 @@ include("header.php");
             <div class="d-none d-md-block col-12 col-md-4 my-auto">
                 <div class="text-center">
                     <a href="https://www.univ-lille.fr/formations/fr-00001994.html" target="_blank" title=" Détails de la formation">
-                        <img " src=" public/images/logoUniLille.png" alt="Logo de l'Université de Lille  " id="logoLille" /></a>
+                        <img src=" public/images/logoUniLille.png" alt="Logo de l'Université de Lille  " id="logoLille" /></a>
                 </div>
             </div>
         </div>
-    </div><br>
+    </div><hr>
 
     <!-- ecole 4  -->
     <div class="row justify-content-md-between pl-md-5">
@@ -172,7 +173,7 @@ include("header.php");
                         sur le développement de sa curiosité intellectuelle, de son esprit critique et de sa capacité d’analyse et de synthèse.
                     </p>
 
-                    <h5  ><a href="#collapse4" data-toggle="collapse">Objectifs de la formation</a></h5>
+                    <h5><a href="#collapse4" data-toggle="collapse">Objectifs de la formation</a></h5>
                     <div id="collapse4" class="collapse">
                         <ul>
                             <li> Connaissances en chimie organique, inorganique, physique et analytique, en lien avec la biochimie. </li>
@@ -190,11 +191,11 @@ include("header.php");
             <div class="d-none d-md-block col-12 col-md-4 my-auto">
                 <div class="text-center">
                     <a href="https://www.usherbrooke.ca/admission/programme/204/baccalaureat-en-biochimie-de-la-sante/#:~:text=Informations%20g%C3%A9n%C3%A9rales,des%20sciences%20de%20la%20sant%C3%A9" target="_blank" title=" Détails de la formation">
-                        <img " src=" public/images/logoUniSherbrooke.png" alt="Logo de l'Université de Sherbrooke  " id="logoUDS" /></a>
+                        <img src="public/images/logoUniSherbrooke.png" alt="Logo de l'Université de Sherbrooke  " id="logoUDS2" /></a>
                 </div>
             </div>
         </div>
-    </div><br>
+    </div><hr>
 
     <!-- ecole 5  -->
     <div class="row justify-content-md-between pl-md-5">
@@ -220,7 +221,7 @@ include("header.php");
                         physico-chimiques.
                     </p>
 
-                    <h5  ><a href="#collapse5" data-toggle="collapse">Objectifs de la formation</a></h5>
+                    <h5><a href="#collapse5" data-toggle="collapse">Objectifs de la formation</a></h5>
                     <div id="collapse5" class="collapse">
                         <ul>
                             <li> Bases dans les domaines fondamentaux de la chimie. </li>
@@ -235,11 +236,11 @@ include("header.php");
             <div class="d-none d-md-block col-12 col-md-4 my-auto">
                 <div class="text-center">
                     <a href="https://www.u-picardie.fr/catalogue-formations/FI/co/licence-c.html" target="_blank" title=" Détails de la formation">
-                        <img " src=" public/images/logoUniUpjv.png" alt="Logo de l'Université de Picardie Jules Verne " id="logoUPJV" /></a>
+                        <img src=" public/images/logoUniUpjv.png" alt="Logo de l'Université de Picardie Jules Verne " id="logoUPJV" /></a>
                 </div>
             </div>
         </div>
-    </div><br>
+    </div>
 </div>
 
 <!--pied de page-->

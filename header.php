@@ -14,15 +14,15 @@
 </head>
 
 <body>
-    <div class="site-header sticky-top ">
+    <div class="site-header sticky-top">
         <!-- banniere -->
-        <div class="d-flex justify-content-center " id="banniere">
+        <div class="d-flex justify-content-center" id="banniere">
             <img src="public/images/logozb.png" alt="Zohra Boussouf" id="logozb">
         </div>
 
         <!-- barre de navigation  -->
         <nav id="navtop" class="navbar navbar-expand-lg bg-vert rounded mx-2">
-            <a class="navbar-brand " href="index.php">
+            <a class="navbar-brand" href="index.php">
                 <!-- titre pour le referencement  -->
                 <h1 hidden>Boussouf Zohra </h1>
             </a>
@@ -30,7 +30,7 @@
                 <span class="navbar-toggler-icon" id="togglerIcon"></span>
             </button>
             <div id="navbarContent" class="navbar-collapse collapse justify-content-center ">
-                <ul class="navbar-nav " id="menu">
+                <ul class="navbar-nav" id="menu">
                     <li class="nav-item "> 
                         <a class="nav-link text-white" <?php if ($nav_en_cours == 'presentation') {echo ' id="en-cours"';} ?> href="index.php#presentation"> Présentation </a>
                     </li>
@@ -38,14 +38,14 @@
                         <a class="nav-link text-white" <?php if ($nav_en_cours == 'academic') {echo ' id="en-cours"';} ?> href="academic.php"> Parcours Scolaire </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'career') {echo ' id="en-cours"';} ?> href="career.php"> Parcours Professionel </a>
+                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'career') {echo ' id="en-cours"';} ?> href="career.php"> Parcours Professionnel </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" <?php if ($nav_en_cours == '') {echo ' id="en-cours"';} ?> href="#"> Activités </a>
+                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'hobby') {echo ' id="en-cours"';} ?> href="hobby.php"> Activités </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" <?php if ($nav_en_cours == '') {echo ' id="en-cours"';} ?> href="#"> Contact </a>
-                    </li
+                    </li>
                 </ul>
             </div>
         </nav>
