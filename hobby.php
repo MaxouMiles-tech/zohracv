@@ -186,7 +186,12 @@ include("header.php");
                     <div>
                         <h4 class="text-left">"L'éducation est l'arme la plus puissante pour changer le monde."</h4>
                         <p>
-ecris un texte
+                            Qui dit éducation ne dit pas forcement études ...
+                            J'ai appris au travers de mes différentes aventures que l'éducation peut se faire de plusieurs manières.<br>
+                            Apprendre de l'autre sa culture, son histoire, en vivant prés de lui ou en regardant des films ( bollywooooood :) ).<br>
+                            Apprendre des valeurs et des qualités universelles telles que la patience, la partage par le biais d'activités manuelles comme le tricot.<br>
+                            Et enfin apprendre de l'expérience des autres lors de séminaire conférences, lectures ...<br>
+                            Tous ces loisirs offre une nouvelle vision de l'éducation pour je l'espère changer le monde à mon tour!
                         </p>
 
                     </div>
