@@ -1,14 +1,18 @@
+<div id="navbot" class="site-footer ">
+    <nav class="navbar justify-content-between navbar-expand-md bg-vert rounded mx-2 text-white">
+        <div class="mb-2">
+            &copy; 2020 | Zohra Boussouf <br>
+        </div>
+        <div class="p-0">
 
-    <div id="navbot" class="site-footer ">
-        <nav class="navbar justify-content-center navbar-expand-md bg-vert rounded mx-2 text-white" >
-            &copy;
-            <?php
-            setlocale(LC_TIME, 'fr_FR', 'fra');
-            echo (strftime("%Y ") );
-            ?>
-            Zohra Boussouf         
-        </nav>
-    </div>
+            <a class="mr-3" href="https://www.linkedin.com/in/zohra-boussouf/" target="_blank" title="Profil LinkedIn">
+                <img id="linkedin" class=" rounded" src="public\images\icoLinkedIn.png"></a>
+            <a href="https://github.com/MaxouMiles-tech" target="_blank" title="Profil GitHub">
+                <img id="github" class=" rounded" src="public\images\icoGithub.png"></a>
+        </div>
+
+    </nav>
+</div>
 
 <!-- Optional JavaScript -->
 

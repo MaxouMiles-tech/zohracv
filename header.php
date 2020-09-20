@@ -14,6 +14,8 @@
 </head>
 
 <body>
+
+
     <div class="site-header sticky-top">
         <!-- banniere -->
         <div class="d-flex justify-content-center" id="banniere">
@@ -21,30 +23,46 @@
         </div>
 
         <!-- barre de navigation  -->
-        <nav id="navtop" class="navbar navbar-expand-lg bg-vert rounded mx-2">
-            <a class="navbar-brand" href="index.php">
-                <!-- titre pour le referencement  -->
+
+        <nav id="navtop" class="navbar navbar-expand-md bg-vert rounded mx-2">
+
+            <!-- titre pour le referencement -->
+            <a class="d-none navbar-brand" href="index.php">
                 <h1 hidden>Boussouf Zohra </h1>
             </a>
-            <button id="btnmenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-                <span class="navbar-toggler-icon" id="togglerIcon"></span>
+
+            <!-- bouton hambuger -->
+            <button id="btnmenu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon " id="togglerIcon"></span>
             </button>
-            <div id="navbarContent" class="navbar-collapse collapse justify-content-center ">
+
+            <!-- menu  -->
+            <div id="navbarContent" class="collapse navbar-collapse  justify-content-center ">
                 <ul class="navbar-nav" id="menu">
-                    <li class="nav-item "> 
-                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'presentation') {echo ' id="en-cours"';} ?> href="index.php#presentation"> Présentation </a>
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'presentation') {
+                                                            echo ' id="en-cours"';
+                                                        } ?> href="index.php#presentation"> Présentation </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'academic') {echo ' id="en-cours"';} ?> href="academic.php"> Parcours Scolaire </a>
+                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'academic') {
+                                                            echo ' id="en-cours"';
+                                                        } ?> href="academic.php"> Parcours Scolaire </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'career') {echo ' id="en-cours"';} ?> href="career.php"> Parcours Professionnel </a>
+                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'career') {
+                                                            echo ' id="en-cours"';
+                                                        } ?> href="career.php"> Parcours Professionnel </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'hobby') {echo ' id="en-cours"';} ?> href="hobby.php"> Activités </a>
+                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'hobby') {
+                                                            echo ' id="en-cours"';
+                                                        } ?> href="hobby.php"> Activités </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" <?php if ($nav_en_cours == '') {echo ' id="en-cours"';} ?> href="#"> Contact </a>
+                        <a class="nav-link text-white" <?php if ($nav_en_cours == 'contact') {
+                                                            echo ' id="en-cours"';
+                                                        } ?> href="contact.php"> Contact </a>
                     </li>
                 </ul>
             </div>

@@ -5,7 +5,6 @@
 } 
 
 /* navigation de page*/
- 
 .bg-vert
 {
     background-color : #036f7b !important;
@@ -33,9 +32,15 @@ nav li
 {
     background-image: url(../../public/images/favicon.png);
 }
+.navbar-toggler-icon
+{
+    width: 45px;
+    height: 45px;
+}
 #btnmenu
 {
     border: none;
+
 }
 #btnmenu:focus
 {
@@ -57,9 +62,9 @@ nav li
 /*Eléments principaux de la page */
 .row
 {
-    text-align: justify;
     width: 100%;
     margin: auto;
+    text-align: justify;
 }
 .titre
 {
@@ -103,3 +108,29 @@ h4, h5 a, h5 a:hover
     /* margin: 30px; */
     /* margin-top: 100px; */
 }
+
+.icoInfo, #github, #linkedin
+{
+width: 40px;
+height: auto;
+}
+
+#zb
+{
+    width: 50%;
+    height: auto;
+}
+
+.card, .card-header, .input-group-text, .form-control
+{
+    border-color: #036f7b;
+}
+
+.form-control
+{
+    height: 50px;
+}
+
+textarea {
+    resize: none;
+  }
