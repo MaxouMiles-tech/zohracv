@@ -25,7 +25,8 @@ include("header.php");
             </div>
             <hr class="m-1">
             <div>
-                <img class="img-fluid icoInfo mr-3" src="public\images\icoComposerEmail.png" alt="Icone Composer un Email">boussouf.zohra@gmail.com</img>
+                <img class="img-fluid icoInfo mr-3" src="public\images\icoComposerEmail.png" alt="Icone Composer un Email">
+                <a id="emailzb" href="mailto:boussouf.zohra@gmail.com">boussouf.zohra@gmail.com</a></img>
             </div>
             <hr class="m-1">
             <div>

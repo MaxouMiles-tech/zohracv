@@ -16,7 +16,7 @@
 <body>
 
 
-    <div class="site-header sticky-top">
+    <div class="site-header sticky-top-md">
         <!-- banniere -->
         <div class="d-flex justify-content-center" id="banniere">
             <img src="public/images/logozb.png" alt="Zohra Boussouf" id="logozb">
