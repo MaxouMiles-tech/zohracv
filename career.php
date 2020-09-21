@@ -175,8 +175,8 @@ include("header.php");
     <div class="row justify-content-md-between pl-md-5 ">
         <!-- section titre -->
         <div class="row mt-3">
-            <h2 class="d-none d-md-block"><img class="mr-3 iconeTitre" src="public/images/icovente.png" alt="Icone de Vente" id="icoVente" />Responsable des Ventes et animatrice de Rayon</h2>
-            <h2 class="d-block d-md-none"><a href="https://www.nocibe.fr/douglas-devient-nocibe-1-1269.cd.html" target="_blank" title="Laboratoire de Mr Yves Dory">
+            <h2 class="d-none d-md-block"><img class="mr-3  iconeTitre" src="public/images/icovente.png" alt="Icone de Vente" id="icoVente" />Responsable des Ventes et animatrice de Rayon</h2>
+            <h2 class="d-block d-md-none  text-left"><a href="https://www.nocibe.fr/douglas-devient-nocibe-1-1269.cd.html" target="_blank" title="Laboratoire de Mr Yves Dory">
                     <img class=" mr-3 iconeTitre" src="public\images\logoDouglas.png" alt="Logo de Douglas" id="logoDouglas" /></a>Responsable des Ventes et animatrice de Rayon</h2>
         </div>
         <!-- section presentation -->

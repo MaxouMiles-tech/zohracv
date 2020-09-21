@@ -10,7 +10,7 @@ document .querySelector("#verifcontact").onsubmit = function checkForm(f)
     var message = document.getElementById("message").value;
 
 // regex qui accepte tous les caracteres de l'alphabet avec un min d'un caractere
-    var filtrealpha = new RegExp (/^[\w\d\s]+$/);
+    var filtrealpha = new RegExp (/^[\w\s\W]+$/);
 
 // chaque champ est teste par une expression reguliere et retourne la variable à false
     if (!filtrealpha.test(nom) )
